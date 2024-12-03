@@ -1,6 +1,6 @@
 ﻿namespace AdventOfCode2024.Day1;
 
-public class Day1Logic
+public class Logic
 {
     private readonly string[] _input = File.ReadAllLines("Day1/input.txt");
     private List<long> _leftList = [];
