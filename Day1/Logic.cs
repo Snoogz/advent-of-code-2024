@@ -1,6 +1,8 @@
-﻿namespace AdventOfCode2024.Day1;
+﻿using Microsoft.Extensions.Logging;
 
-public class Logic
+namespace AdventOfCode2024.Day1;
+
+public class Logic(ILogger logger)
 {
     private readonly string[] _input = File.ReadAllLines("Day1/input.txt");
     private List<long> _leftList = [];
